@@ -1,0 +1,27 @@
+.home{  
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   text-align: center;
+   width: auto;
+   height:100vh;
+   background-color: #fff;
+   overflow:scroll;
+}
+
+.pic>img{ 
+   border-radius:40%;
+   border-style:none; 
+   max-width:300px; 
+
+}
+.column{
+   background-color: red;
+   max-height:50%;
+}
+@media screen and (min-width : 780px) {
+   .container{
+      display: flex;
+   }
+
+}
